@@ -1,0 +1,13 @@
+/* src\componentes\infoaluno\styles.css */
+
+.infoaluno h2 {
+    color: #155fd6;
+    margin: 15px 0;
+    font-size: 50px;
+}
+
+.infoaluno p {
+    color: #cb0c0c;
+    margin: 10px 0;
+    font-size: px;
+}

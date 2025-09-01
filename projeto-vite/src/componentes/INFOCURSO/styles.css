@@ -1,0 +1,12 @@
+/* src\componentes\INFOCURSO\styles.css */
+.infoaluno h3 {
+    color: #155fd6;
+    margin: 30px 0;
+    font-size: 50px;
+}
+
+.infoaluno p {
+    color: #cb0c0c;
+    margin: 10px 0;
+    font-size: 20px;
+}
