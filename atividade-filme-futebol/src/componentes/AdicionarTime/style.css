@@ -1,0 +1,158 @@
+/* src\componentes\AdicionarTime\style.css */
+
+/* Container principal */
+.info-cliente {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 30px 35px;
+  background: linear-gradient(135deg, #1a0000, #3d0000);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(225, 6, 0, 0.7);
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f5f5f5;
+  border: 2px solid #E10600;
+}
+
+/* Logo */
+.cliente-icone {
+  display: block;
+  margin: 0 auto 30px;
+  width: 110px;
+  border-radius: 50%;
+  border: 4px solid #E10600;
+  padding: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 15px #E10600AA;
+  transition: transform 0.3s ease;
+}
+.cliente-icone:hover {
+  transform: scale(1.05);
+}
+
+/* Títulos */
+h2, h3 {
+  color: #FF3B3B;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-shadow: 0 0 10px #E10600;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #FF3B3B;
+  text-shadow: 0 0 6px #E10600;
+  letter-spacing: 0.7px;
+  font-size: 15px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+  padding: 12px 14px;
+  border: 2px solid #FF3B3B;
+  border-radius: 10px;
+  background-color: #300000;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: inset 0 0 5px #660000;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: #bb4444;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #FF6B6B;
+  box-shadow: 0 0 12px #FF6B6B;
+  outline: none;
+  background-color: #3d0000;
+  color: #fff;
+}
+
+/* Botão */
+button {
+  background: linear-gradient(45deg, #E10600, #FF3B3B);
+  border: none;
+  padding: 14px 0;
+  border-radius: 14px;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px #FF3B3BAA;
+  transition: background 0.35s ease, box-shadow 0.35s ease, transform 0.25s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #FF3B3B, #E10600);
+  box-shadow: 0 8px 20px #FF6B6BAA;
+  transform: translateY(-3px);
+}
+
+/* Linha divisória */
+hr {
+  border: none;
+  border-top: 3px solid #FF3B3B;
+  margin: 30px 0;
+  box-shadow: 0 0 12px #E10600;
+  border-radius: 2px;
+}
+
+/* Lista de jogadores */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: linear-gradient(90deg, #330000, #660000);
+  margin-bottom: 15px;
+  padding: 14px 20px;
+  border-left: 8px solid #E10600;
+  border-radius: 12px;
+  font-weight: 700;
+  color: #FFDCDC;
+  letter-spacing: 0.8px;
+  box-shadow: 0 2px 8px #E1060055;
+  transition: background 0.3s ease;
+}
+
+ul li:hover {
+  background: linear-gradient(90deg, #660000, #990000);
+}
+
+/* Responsividade simples */
+@media (max-width: 480px) {
+  .info-cliente {
+    max-width: 90%;
+    padding: 25px 20px;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 12px 0;
+  }
+}
