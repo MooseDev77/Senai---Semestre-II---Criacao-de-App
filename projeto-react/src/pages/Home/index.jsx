@@ -1,6 +1,8 @@
 // src\pages\Home\index.jsx
-
+import { Link } from 'react-router-dom'
 import './style.css'
+import hero from '../../assets/hero.png'
+import office from '../../assets/office.png'
 
 function Home() {
     return (

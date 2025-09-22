@@ -10,7 +10,7 @@ function Servicos() {
 
             <div className='grid cols-3'>
                 <div className='card'>
-                    <h3>abertura de empresa</h3>
+                    <h3>Abertura de empresa</h3>
                     <p>Do zero à regulação: CAE, contrato social e inscrição.</p>
                 </div>
                 <div className='card'>

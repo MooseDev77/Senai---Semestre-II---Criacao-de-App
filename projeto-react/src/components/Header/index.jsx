@@ -1,7 +1,6 @@
 // src\components\Header\index.jsx
 
-
-import { NavLink, link} from 'react-router-dom';
+import { NavLink, Link} from 'react-router-dom';
 import './style.css'
 import logo from '../../assets/logo.png'
 
@@ -15,9 +14,9 @@ function Header() {
             </Link>
 
             <nav className="nav">
-                <Navlink to="/servicos" className={({ isActive}) => isActive ? 'link active' : 'link'}>
+                <NavLink to="/servicos" className={({ isActive}) => isActive ? 'link active' : 'link'}>
                     Serviços
-                </Navlink> 
+                </NavLink> 
                 <NavLink to="/sobre-nos" className={({ isActive}) => isActive ? 'link active' : 'link'}>
                     Sobre Nós
                 </NavLink>
